@@ -12,10 +12,17 @@ theme = "PaperMod"
 
 [menu]
 [[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
   identifier = "categories"
   name = "Categories"
   url = "/categories/"
-  weight = 1
+  weight = 2
+
 [[menu.main]]
   identifier = "about"
   name = "About"
@@ -30,3 +37,7 @@ theme = "PaperMod"
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[[footerLinks]]
+  name = "お問い合わせ"
+  link = "https://docs.google.com/forms/d/e/1FAIpQLSdYPVCY_nM9XqX1H9PGz2AsKBzAy-rq1Tz_NkZ04bbWkDSzyQ/viewform?usp=header"
