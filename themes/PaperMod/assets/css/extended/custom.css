@@ -21,7 +21,6 @@ h3 {
 h4 {
    padding: 0.3em 0.5em; /*文字周りの余白(上下 左右)*/
    border-left: solid 6px #6495ed; /*左線*/
-   border-bottom: solid 3px #6495ed; /*下線*/
 }
 
 /*h5 小見出し*/
@@ -30,17 +29,5 @@ h4 {
 }
 h5 {
     padding: 3px 15px; /*文字周りの余白(上下 左右)*/
-    display: block;
-    border-left: 7px solid 6495ed; /*二重線左側（太さ 実線 色）*/
-    position: relative;
-}
-h5:before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 3px;
-    top: 0;
-    width: 3px; /*二重線右側の太さ（幅）*/
-    height: 100%;
-    background: #6495ed; /*二重線右側の色*/
+    border-left: solid 4px #6495ed; /*左線*/
 }

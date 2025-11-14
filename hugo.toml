@@ -10,6 +10,18 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
 
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[outputs]
+  home = [ "HTML", "RSS", "JSON" ]
+
 [menu]
 [[menu.main]]
   identifier = "home"
@@ -21,6 +33,13 @@ theme = "PaperMod"
   identifier = "categories"
   name = "Categories"
   url = "/categories/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+
   weight = 2
 
 [[menu.main]]
