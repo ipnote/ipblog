@@ -1,6 +1,6 @@
 baseURL = "https://ipblog.pages.dev/"
 languageCode = "ja"
-title = "ブログタイトル"
+title = "実務者のための知財法務"
 theme = "PaperMod"
 
 [params]
