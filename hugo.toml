@@ -3,6 +3,11 @@ languageCode = "ja"
 title = "実務者のための知財法務"
 theme = "PaperMod"
 
+[params.homeInfoParams]
+  Title = "実務者のための知財法務"
+  Content = "日々の業務で得た知見をもとに、知財や契約に関する内容を中心とした記事を、備忘録としてまとめています。<br>あくまで一知財部員の主観も含まれた記事として、参考程度に見て頂けると有り難いです。"
+
+
 [params]
   defaultTheme = "light"    # ダークモードを使わない場合は"light"
   ShowShareButtons = false
@@ -10,6 +15,9 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = true
+  ShowRelatedContent = true
 
 [params.fuseOpts]
   isCaseSensitive = false

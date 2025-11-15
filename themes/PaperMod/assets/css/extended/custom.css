@@ -1,3 +1,8 @@
+/* Table of contentsのフォントサイズ庁瀬 */
+.toc {
+    font-size: 16px;
+}
+
 /* 記事のタイトルのフォントサイズ調整 */
 .post-title {
     margin-bottom: 2px;
@@ -41,9 +46,12 @@ h5 {
 
 /* 画像サイズ調整 */
 .post-content img {
-  max-width: 100%;
-  width: 400px;  /* PCでは600px、スマホでは縮む */
+  max-width: 300px;
   height: auto;
   display: block;
   margin: 1.5rem auto; /* 画像を中央寄せ */
+}
+
+.paginav {
+    font-size: 16px;
 }
