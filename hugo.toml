@@ -18,6 +18,7 @@ theme = "PaperMod"
   ShowToc = true
   TocOpen = true
   ShowRelatedContent = true
+  sortPostBy = "date"
 
 [params.fuseOpts]
   isCaseSensitive = false
