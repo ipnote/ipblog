@@ -73,3 +73,5 @@ theme = "PaperMod"
 
 
 enableRobotsTXT = false
+
+publishDir = "docs"
