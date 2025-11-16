@@ -16,14 +16,13 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = true
-  ShowRelatedContent = true
   sortPostBy = "date"
 
 [params.assets]
-  favicon = "/images/ip_favicon.ico"
-  favicon16x16 = "/images/ip_favicon_16.png"
-  favicon32x32 = "/images/ip_favicon_32.png"
-  apple_touch_icon = "/images/ip_apple-touch-icon.png"
+  favicon = "/assets/images/ip_favicon.ico"
+  favicon16x16 = "/assets/images/ip_favicon_16.png"
+  favicon32x32 = "/assets/images/ip_favicon_32.png"
+  apple_touch_icon = "/assets/images/ip_apple-touch-icon.png"
 
 [params.fuseOpts]
   isCaseSensitive = false
