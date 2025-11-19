@@ -46,7 +46,7 @@ h5 {
 
 /* 画像サイズ調整 */
 .post-content img {
-  max-width: 300px;
+  max-width: 500px;
   height: auto;
   display: block;
   margin: 1.5rem auto; /* 画像を中央寄せ */
