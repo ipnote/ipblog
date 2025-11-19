@@ -5,6 +5,8 @@ theme = "PaperMod"
 publishDir = "docs"
 googleAnalytics = ""
 
+[permalinks]
+post = "/post/:year/:month/:day/:slug/"
 
 [params.homeInfoParams]
   Title = "実務者のための知財法務"
