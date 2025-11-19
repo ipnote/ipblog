@@ -15,6 +15,12 @@
     line-height: 1.8;
 }
 
+/*h2 大見出し*/
+.post-content h2 {
+    font-size:170%; /*文字サイズ*/
+    margin: 4em 0 1.3em; /*見出しの上下の余白*/
+}
+
 /*h3 大見出し*/
 .post-content h3 {
     font-size:150%; /*文字サイズ*/

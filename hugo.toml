@@ -77,5 +77,27 @@ post = "/post/:year/:month/:day/:filename/"
   category = "categories"
 
 
+[related]
+threshold = 0
+includeNewer = true
+toLower = false
+
+[[related.indices]]
+name = "tags"
+weight = 100
+
+[[related.indices]]
+name = "categories"
+weight = 80
+
+[[related.indices]]
+name = "title"
+weight = 20
+
+[[related.indices]]
+name = "keywords"
+weight = 10
+
+
 enableRobotsTXT = false
 
