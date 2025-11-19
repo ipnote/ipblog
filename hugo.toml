@@ -6,7 +6,7 @@ publishDir = "docs"
 googleAnalytics = ""
 
 [permalinks]
-post = "/post/:year/:month/:day/:slug/"
+post = "/post/:year/:month/:day/:filename/"
 
 [params.homeInfoParams]
   Title = "実務者のための知財法務"
