@@ -766,6 +766,79 @@
 &lt;p&gt;そのような要望を飲むのであれば、更に対価やライセンス料の交渉をすることが可能となるであろう。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>開発委託基本契約で準委任用と請負用を分けるべきか</title>
+      <link>https://ipnote.github.io/post/2025/07/03/215056/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipnote.github.io/post/2025/07/03/215056/</guid>
+      <description>&lt;p&gt;今後、定期的に開発の委託を発注するとのことで、開発委託基本契約のためのドラフトを作成することとなった。&lt;/p&gt;
+&lt;p&gt;委託の形態としては、準委任型のパターンもあれば、請負型のパターンもあるとのこと。&lt;/p&gt;
+&lt;p&gt;その際、基本契約を準委任用と請負用とに分けるべきか、それとも１つの契約書にまとめてしまうか、どちらにしようか考えたため、備忘録として残しておきたい。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250630224953.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;h3 id=&#34;準委任と請負との間で留意すべき相違点&#34;&gt;準委任と請負との間で留意すべき相違点&lt;/h3&gt;
+&lt;p&gt;基本契約書を別々にするか１つにまとめるかによらず、準委任と請負とでは適用される条項が異なる点はケアする必要がある。&lt;/p&gt;
+&lt;p&gt;例えば、以下の条項は請負の場合のみに適用されるべきかと思われる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;成果物の納品・検収&lt;/li&gt;
+&lt;li&gt;契約不適合&lt;/li&gt;
+&lt;li&gt;製造物責任&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;もし１つの契約にまとめるなら、これらの条項の最後に「準委任として発注された場合には適用しない」といった文言を入れておくのが良い。&lt;/p&gt;
+&lt;p&gt;また発注書のテンプレートも異なってくるかと思うので、契約書に添付するテンプレートは準委任用と請負用とでそれぞれ用意することが必要かと思う（発注書で準委任か請負かを特定する形）。&lt;/p&gt;
+&lt;h3 id=&#34;基本契約書を別々にするか一本化するか&#34;&gt;基本契約書を別々にするか、一本化するか&lt;/h3&gt;
+&lt;p&gt;基本契約書を別々に作成すると、法的リスクは緩和できる一方、契約コストは高くなる傾向がある。&lt;/p&gt;
+&lt;p&gt;一方、契約を一本化すると、その逆の関係になる。&lt;/p&gt;
+&lt;p&gt;両者のメリットとデメリットをまとめると、大体以下の表のような感じかと思う。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; 項目 &lt;/th&gt;
+&lt;th&gt; 別々に作成 &lt;/th&gt;
+&lt;th&gt; 一本化 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; 準委任と請負の法的性質明確化 &lt;/td&gt;
+&lt;td&gt; 〇 &lt;/td&gt;
+&lt;td&gt; ✕ &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 各契約の責任範囲や義務の明確化 &lt;/td&gt;
+&lt;td&gt; 〇 &lt;/td&gt;
+&lt;td&gt; ✕ &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 契約書作成コスト &lt;/td&gt;
+&lt;td&gt; ✕ &lt;/td&gt;
+&lt;td&gt; 〇 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 契約書管理・更新コスト &lt;/td&gt;
+&lt;td&gt; ✕ &lt;/td&gt;
+&lt;td&gt; 〇 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 発注時の準委任/請負明確化 &lt;/td&gt;
+&lt;td&gt; 〇 &lt;/td&gt;
+&lt;td&gt; △* &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;*発注書フォーマットで準委任か請負かを明記するようにしておけば、リスク低減可能&lt;/p&gt;
+&lt;p&gt;また、紙の契約であれば別々に契約書を作成すると印紙代が余分にかかることとなる。&lt;/p&gt;
+&lt;p&gt;しかし、電子契約であればそういったデメリットは発生しない。&lt;/p&gt;
+&lt;p&gt;ただし、電子契約の海外における有効性は国によって異なるので、海外企業との取引で電子契約を利用する際には、取引先の国の法律を事前に確認する必要がある点は注意が必要である。&lt;/p&gt;
+&lt;p&gt;このように一長一短あるが、基本契約書を一本化したときも即座に法的リスクが高まるわけではなく、条項や発注書フォーマットで不明確な記載とならないようきちんと手当てがなされていれば、個人的にはそれほど問題ではないかなと思う。&lt;/p&gt;
+&lt;p&gt;結論としては、コストを抑えたければ一本化、より法的に万全を期すのなら別々の作成となるだろうが、そんなに両者で実務上の差は無いというのが正直なところである。&lt;/p&gt;
+&lt;p&gt;仮に一本化しようとする際は、契約の相手方から「準委任と請負とで契約は分けておきたい」と要求されることもあるだろうが（特にこちら側がドラフトする場合）、そこは相手方に合わせてあげても良い。&lt;/p&gt;
+&lt;p&gt;もっと交渉すべき条件があろう中で、上記の形式的な契約書構成に関しては譲歩しても問題ない部分かと思われる。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>契約書における記載ミスの話</title>
       <link>https://ipnote.github.io/post/2025/06/23/090822/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
@@ -1379,52 +1452,59 @@
 
 
 
-  &lt;p&gt;ページが見つかりません: post/2025/07/03/215056/index.md&lt;/p&gt;
 
+  
 
-&lt;h3 id=&#34;請負と準委任の対比表&#34;&gt;請負と準委任の対比表&lt;/h3&gt;
-&lt;p&gt;最後に、両者の主な差異を表にまとめておく。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt; 項目 &lt;/th&gt;
-&lt;th&gt; 請負 &lt;/th&gt;
-&lt;th&gt;準委任 &lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt; 契約目的&lt;/td&gt;
-&lt;td&gt; 成果物の完成（例：システム、アプリの納品）&lt;/td&gt;
-&lt;td&gt;業務の遂行（例：技術支援、保守、テスト作業）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt; 成果物の納品&lt;/td&gt;
-&lt;td&gt;必要&lt;/td&gt;
-&lt;td&gt;不要（義務ではないが、報告書等の提出はOK）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt; 報酬の発生&lt;/td&gt;
-&lt;td&gt;成果物の納品が完了していないと請求不可 &lt;/td&gt;
-&lt;td&gt;業務遂行に応じて請求可能&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt; 金額の提示方法&lt;/td&gt;
-&lt;td&gt;総額（定額）で提示 &lt;/td&gt;
-&lt;td&gt;「人員の単価 × 工数（月数・時間数）」で提示&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt; 責任範囲&lt;/td&gt;
-&lt;td&gt;完成責任あり。不具合、遅延等があると損害賠償する場合も &lt;/td&gt;
-&lt;td&gt;善管注意義務のみ。結果責任は負わない&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt; 委託元による指揮命令&lt;/td&gt;
-&lt;td&gt; 基本不可（独立性が前提） &lt;/td&gt;
-&lt;td&gt;基本可能（偽装請負とみなされないよう注意）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</description>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;https://ipnote.github.io/post/2025/07/03/215056/20250630224953.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;https://ipnote.github.io/post/2025/07/03/215056/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        開発委託基本契約で準委任用と請負用を分けるべきか
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+        今後、定期的に開発の委託を発注するとのことで、開発委託基本契約のためのドラフトを作成することとなった。
+委託の形態としては、準委任型のパター...
+      &lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
